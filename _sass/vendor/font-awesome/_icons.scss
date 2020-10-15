@@ -1012,6 +1012,7 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-squarespace:before { content: fa-content($fa-var-squarespace); }
 .#{$fa-css-prefix}-stack-exchange:before { content: fa-content($fa-var-stack-exchange); }
 .#{$fa-css-prefix}-stack-overflow:before { content: fa-content($fa-var-stack-overflow); }
+.#{$fa-css-prefix}-cs-exchange:before { content: fa-content($fa-var-cs-exchange); }
 .#{$fa-css-prefix}-stamp:before { content: fa-content($fa-var-stamp); }
 .#{$fa-css-prefix}-star:before { content: fa-content($fa-var-star); }
 .#{$fa-css-prefix}-star-and-crescent:before { content: fa-content($fa-var-star-and-crescent); }
