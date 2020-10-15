@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Science & Software"
+title                    : "High-Performance Bioinformatics"
 title_separator          : "-"
 name                     : &name "Bryce Kille"
 description              : &description "Scientific software engineer at Rice University"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             :  "Bryce Kille"
   avatar           : "profile.png"
-  bio              : "Scientiic software and algorithms engineer for the Treangen Lab at Rice University."
+  bio              : "Algorithms & software engineer for the Treangen Lab at Rice University."
   location         : "Houston, Tx"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
