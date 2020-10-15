@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Bryce Kille"
+title                    : "Science & Software"
 title_separator          : "-"
 name                     : &name "Bryce Kille"
 description              : &description "Scientific software engineer at Rice University"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "BARS"
+  name             :  "Bryce Kille"
   avatar           : "profile.png"
   bio              : "Scientiic software and algorithms engineer for the Treangen Lab at Rice University."
   location         : "Houston, Tx"
