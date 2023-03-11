@@ -106,8 +106,8 @@ author:
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
-  stackoverflow    : "7092484/throckmorton"
-  stackexchange    : "62112/throckmorton" 
+  stackoverflow    : #"7092484/throckmorton"
+  stackexchange    : #"62112/throckmorton" 
   steam            : #"bkille95"
   tumblr           :
   twitter          : #"replacethistwitterhandle"
