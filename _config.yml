@@ -35,7 +35,8 @@ author:
 
   # Repositories and software development
   github           : "bkille"
-  stackoverflow    : "7092484/throckmorton" # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  stackoverflow    : #"7092484/throckmorton" # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  stackexchange    : "62112/throckmorton" 
 
   # Social media
   #bluesky          : "bsky.app" # Replace this with you Bluesky username
@@ -130,7 +131,6 @@ analytics:
   provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
-
 
 # Reading Files
 include:
