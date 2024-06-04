@@ -3,17 +3,69 @@
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# server process.
 
-# Site Settings
+# Basic Site Settings
 locale                   : "en-US"
 title                    : "High-Performance Bioinformatics"
 title_separator          : "-"
 name                     : &name "Bryce Kille"
-description              : &description "Scientific software engineer at Rice University"
+description              : &description "PhD Student at Rice University"
 url                      : https://bkille.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "bkille/bkille.github.io"
+
+# Site Author - The following control what appear as part of the author content on the side bar.
+#               If a field is blank the icon and link will not appear, otherwise it will be shown.
+#               Additional customization can be done by editing /_includes/author-profile.html
+author:
+  # Biographic information
+  avatar           : "profile.png"
+  name             : "Bryce Kille"
+  pronouns         : # example: "she/her"  
+  #bio              : "Short biography for the left-hand sidebar"
+  location         : "Houston, Texas"
+  employer         : "Rice University"
+  uri              : # URL
+  email            : "brycekille@gmail.com" 
+
+  # Academic websites
+  googlescholar    : "https://scholar.google.com/citations?user=EUtkB0sAAAAJ&hl=en"
+
+  # Repositories and software development
+  github           : "bkille"
+  stackoverflow    : #"7092484/throckmorton" # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  stackexchange    : "62112/throckmorton" 
+
+  # Social media
+  #bluesky          : "bsky.app" # Replace this with you Bluesky username
+  #facebook         : # Username
+  #flickr           : # Username
+  #foursquare       : # Username
+  #goodreads        : # Username
+  #google_plus      : # Username
+  #keybase          : # Username
+  #instagram        : # Username
+  #lastfm           : # Username
+  #linkedin         : # Username
+  #mastodon         : # URL
+  #medium           : # URL
+  #pinterest        : # Username
+  #soundcloud       : # Username
+  #steam            : # Username
+  #telegram         : # URL
+  #tumblr           : # Username
+  #twitter          : # Username for X / Twitter
+  #vine             : # Username
+  #weibo            : # Username
+  #wikipedia        : # Username
+  #xing             : # Username
+  #youtube          : # Username
+  #zhihu            : # URL
+
+
+# Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -47,13 +99,16 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
+  hide                   : false     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
+
 
 # SEO Related
 google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
+
 
 # Social Sharing
 twitter:
@@ -73,50 +128,9 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
-
-
-# Site Author
-author:
-  name             :  "Bryce Kille"
-  avatar           : "profile.png"
-  bio              : "Algorithms & software engineer for the Treangen Lab at Rice University."
-  location         : "Houston, Tx"
-  employer         :
-  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?user=EUtkB0sAAAAJ&hl=en"
-  email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "bkille"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         :
-  orcid            : #"http://orcid.org/yourorcidurl"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : #"7092484/throckmorton"
-  stackexchange    : #"62112/throckmorton" 
-  steam            : #"bkille95"
-  tumblr           :
-  twitter          : #"replacethistwitterhandle"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
-
 
 # Reading Files
 include:
@@ -175,19 +189,19 @@ kramdown:
 
 
 # Collections
-collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
+#collections:
+  #teaching:
+    #output: true
+    #permalink: /:collection/:path/
+  #publications:
+    #output: true
+    #permalink: /:collection/:path/
+  #portfolio:
+    #output: true
+    #permalink: /:collection/:path/
+  #talks:
+    #output: true
+    #permalink: /:collection/:path/
 
 
 # Defaults
@@ -245,6 +259,7 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+
 
 # Sass/SCSS
 sass:
