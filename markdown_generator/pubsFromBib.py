@@ -26,13 +26,14 @@ import re
 
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 publist = {
-    "journal":{
-        "file": "mypubs.bib",
+    "journal": {
+        "file" : "mypubs.bib",
         "venuekey" : "journal",
         "venue-pretext" : "",
         "collection" : {"name":"publications",
                         "permalink":"/publication/"}
-    } 
+
+    }
 }
 
 html_escape_table = {
